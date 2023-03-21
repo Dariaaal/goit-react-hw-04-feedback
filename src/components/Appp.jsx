@@ -52,7 +52,7 @@ export default function App(){
         > 
         <Section title='Please leave feedback'>
           <FeedbackOptions
-          options={Object.keys(this.state)}
+        //   options={Object.keys(this.state)}
           onLeaveFeedback={handleIncrement}/>
         </Section>
         <Section title='Statistics'>
